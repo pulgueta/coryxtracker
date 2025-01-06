@@ -15,12 +15,6 @@ export const Layout: FC<PropsWithChildren> = ({ children }) => {
           type="image/jpeg"
           href="https://yt3.googleusercontent.com/ytc/AIdro_mLkQYpmL7WNNEHOzLZGIrFuEZZluLQkKPfV5-_b1Ngl2s=s160-c-k-c0x00ffffff-no-rj"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&display=swap"
-          rel="stylesheet"
-        />
         <script src="https://cdn.tailwindcss.com" />
       </head>
       <title>CoryxTracker</title>

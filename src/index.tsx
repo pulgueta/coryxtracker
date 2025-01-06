@@ -1,5 +1,5 @@
-import { Hono } from "hono";
 import { cache } from "hono/cache";
+import { Hono } from "hono/tiny";
 
 import { Layout } from "@/components/layout";
 import { Tracker } from "@/components/tracker";
