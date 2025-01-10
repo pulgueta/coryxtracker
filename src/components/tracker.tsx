@@ -14,7 +14,9 @@ export const Tracker: FC<TrackerProps> = ({ data, videoId }) => {
   return (
     <article class="mx-auto w-full max-w-xs">
       <header class="mb-4">
-        <p class="text-pretty text-center font-bold text-5xl text-white tracking-tight">{days}</p>
+        <p class="text-pretty text-center font-bold text-5xl text-white tracking-tight">
+          {days <= 0 ? "He just uploaded, check it out!" : days}
+        </p>
       </header>
       <section>
         <a
