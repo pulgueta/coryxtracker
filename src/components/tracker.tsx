@@ -12,7 +12,7 @@ export const Tracker: FC<TrackerProps> = ({ data, videoId }) => {
   const days = daysFrom(new Date(data.publishedAt));
 
   return (
-    <article class="mx-auto w-full max-w-xs">
+    <article class="mx-auto w-full max-w-sm">
       <header class="mb-4">
         <p class="text-pretty text-center font-bold text-5xl text-white tracking-tight">
           {days <= 0 ? "He just uploaded, check it out!" : days}
